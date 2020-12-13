@@ -1,0 +1,21 @@
+.text-white{
+    margin-right: 1.5rem!important;
+}
+.text{
+    margin-right: 0;
+    color: #fff;
+    margin-left: 0px;
+}
+.text-white:hover, .text:hover, .text-active{
+    text-decoration: none;
+    color: #bbb7b7!important;
+}
+.nav-item{
+    padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .text{
+      margin-left: -25px!important;
+    }
+  }
